@@ -43,7 +43,7 @@ Your response should include:
 """
 
     response = chat(
-        model='llama3.2:1b',  # Updated from 'llama3.2:1b' to valid model name
+        model='llama3.2:latest',  # Updated from 'llama3.2:1b' to valid model name
         messages=[{"role": "user", "content": prompt}]
     )
 
@@ -62,7 +62,7 @@ Please answer clearly based on your earlier suggestions.
 """
 
     response = chat(
-        model='llama3.2:1b',  # Updated to valid existing model
+        model='llama3.2:latest',  # Updated to llama3.2:latest
         messages=[{"role": "user", "content": prompt}]
     )
 
